@@ -1,0 +1,198 @@
+/**
+ * Mock data for exchanges and cloud regions
+ */
+
+import { ExchangeServer, CloudRegion } from '@/types';
+
+/**
+ * Major crypto exchange server locations
+ */
+export const EXCHANGE_SERVERS: ExchangeServer[] = [
+  {
+    id: 'binance-1',
+    name: 'Binance',
+    latitude: 1.2897,
+    longitude: 103.8501,
+    region: 'Asia-Pacific',
+    cloudProvider: 'AWS',
+    country: 'Singapore',
+    city: 'Singapore',
+  },
+  {
+    id: 'binance-2',
+    name: 'Binance',
+    latitude: 40.7128,
+    longitude: -74.0060,
+    region: 'North America',
+    cloudProvider: 'AWS',
+    country: 'USA',
+    city: 'New York',
+  },
+  {
+    id: 'okx-1',
+    name: 'OKX',
+    latitude: 22.3193,
+    longitude: 114.1694,
+    region: 'Asia-Pacific',
+    cloudProvider: 'GCP',
+    country: 'Hong Kong',
+    city: 'Hong Kong',
+  },
+  {
+    id: 'okx-2',
+    name: 'OKX',
+    latitude: 51.5074,
+    longitude: -0.1278,
+    region: 'Europe',
+    cloudProvider: 'GCP',
+    country: 'UK',
+    city: 'London',
+  },
+  {
+    id: 'bybit-1',
+    name: 'Bybit',
+    latitude: 1.2897,
+    longitude: 103.8501,
+    region: 'Asia-Pacific',
+    cloudProvider: 'Azure',
+    country: 'Singapore',
+    city: 'Singapore',
+  },
+  {
+    id: 'bybit-2',
+    name: 'Bybit',
+    latitude: 50.1109,
+    longitude: 8.6821,
+    region: 'Europe',
+    cloudProvider: 'Azure',
+    country: 'Germany',
+    city: 'Frankfurt',
+  },
+  {
+    id: 'deribit-1',
+    name: 'Deribit',
+    latitude: 52.3676,
+    longitude: 4.9041,
+    region: 'Europe',
+    cloudProvider: 'AWS',
+    country: 'Netherlands',
+    city: 'Amsterdam',
+  },
+  {
+    id: 'coinbase-1',
+    name: 'Coinbase',
+    latitude: 37.7749,
+    longitude: -122.4194,
+    region: 'North America',
+    cloudProvider: 'AWS',
+    country: 'USA',
+    city: 'San Francisco',
+  },
+  {
+    id: 'kraken-1',
+    name: 'Kraken',
+    latitude: 47.6062,
+    longitude: -122.3321,
+    region: 'North America',
+    cloudProvider: 'GCP',
+    country: 'USA',
+    city: 'Seattle',
+  },
+  {
+    id: 'bitfinex-1',
+    name: 'Bitfinex',
+    latitude: 25.2048,
+    longitude: 55.2708,
+    region: 'Middle East',
+    cloudProvider: 'AWS',
+    country: 'UAE',
+    city: 'Dubai',
+  },
+];
+
+/**
+ * Major cloud provider regions
+ */
+export const CLOUD_REGIONS: CloudRegion[] = [
+  {
+    id: 'aws-us-east-1',
+    name: 'AWS US East (N. Virginia)',
+    provider: 'AWS',
+    latitude: 38.9072,
+    longitude: -77.0369,
+    region: 'us-east-1',
+  },
+  {
+    id: 'aws-us-west-2',
+    name: 'AWS US West (Oregon)',
+    provider: 'AWS',
+    latitude: 45.5152,
+    longitude: -122.6784,
+    region: 'us-west-2',
+  },
+  {
+    id: 'aws-eu-west-1',
+    name: 'AWS EU (Ireland)',
+    provider: 'AWS',
+    latitude: 53.3498,
+    longitude: -6.2603,
+    region: 'eu-west-1',
+  },
+  {
+    id: 'aws-ap-southeast-1',
+    name: 'AWS Asia Pacific (Singapore)',
+    provider: 'AWS',
+    latitude: 1.2897,
+    longitude: 103.8501,
+    region: 'ap-southeast-1',
+  },
+  {
+    id: 'gcp-us-central1',
+    name: 'GCP US Central (Iowa)',
+    provider: 'GCP',
+    latitude: 41.8781,
+    longitude: -93.0977,
+    region: 'us-central1',
+  },
+  {
+    id: 'gcp-europe-west1',
+    name: 'GCP Europe West (Belgium)',
+    provider: 'GCP',
+    latitude: 50.8503,
+    longitude: 4.3517,
+    region: 'europe-west1',
+  },
+  {
+    id: 'gcp-asia-east1',
+    name: 'GCP Asia East (Taiwan)',
+    provider: 'GCP',
+    latitude: 25.0330,
+    longitude: 121.5654,
+    region: 'asia-east1',
+  },
+  {
+    id: 'azure-eastus',
+    name: 'Azure East US',
+    provider: 'Azure',
+    latitude: 38.9072,
+    longitude: -77.0369,
+    region: 'eastus',
+  },
+  {
+    id: 'azure-westeurope',
+    name: 'Azure West Europe',
+    provider: 'Azure',
+    latitude: 52.3676,
+    longitude: 4.9041,
+    region: 'westeurope',
+  },
+  {
+    id: 'azure-southeastasia',
+    name: 'Azure Southeast Asia',
+    provider: 'Azure',
+    latitude: 1.2897,
+    longitude: 103.8501,
+    region: 'southeastasia',
+  },
+];
+
